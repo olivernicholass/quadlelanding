@@ -48,8 +48,9 @@
 }
 
 @media (max-width: 500px) {
-    #logo {
-        padding: 20px;
+    
+    .logo-info{
+        gap:10px;
     }
 
     .links img{
@@ -79,7 +80,7 @@
 #logo {
     height: 50px;
     margin-top: 8px;
-    margin-right: 3px;
+    margin-right: 4px;
 }
 
 .logo-info{
