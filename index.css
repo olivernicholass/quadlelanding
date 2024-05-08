@@ -1,23 +1,21 @@
-/* Inter Bold */
+/* JetBrains Mono Regular */
 @font-face {
-    font-family: 'Inter Bold';
-    src: url('../fonts/Inter-Bold.ttf') format('truetype');
-  }
+    font-family: 'JetBrains Mono';
+    src: url('../fonts/JetBrainsMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
-  /* Inter Medium */
+/* JetBrains Mono Bold */
 @font-face {
-    font-family: 'Inter Medium';
-    src: url('../fonts/Inter-Medium.ttf') format('truetype');
-  }
-  
-  /* Inter Regular */
-  @font-face {
-    font-family: 'Inter Regular';
-    src: url('../fonts/Inter-Regular.ttf') format('truetype');
-  }
+    font-family: 'JetBrains Mono';
+    src: url('../fonts/JetBrainsMono-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
 
   body{
-     font-family:'Inter Regular', sans-serif;
+     font-family:'JetBrains Mono', sans-serif;
      font-size:20px;
   }
 
@@ -59,11 +57,11 @@
     }
 
     p {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .item p{
-        font-size: 16px !important;
+        font-size: 14px !important;
     }
 }
 
@@ -80,9 +78,8 @@
 #logo {
     height: 50px;
     margin-top: 8px;
-    margin-right: 4px;
+    margin-right: 6px;
 }
-
 .logo-info{
         display: flex;
         flex-direction: row;
