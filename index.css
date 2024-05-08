@@ -57,8 +57,11 @@
     height: 100vh; 
 }
 
-.info{
-    padding:10px;
+#logo {
+    height: 120px;
+}
+.info {
+    padding: 20px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
