@@ -51,6 +51,11 @@
     #logo {
         padding: 20px;
     }
+
+    .links img{
+        height: 35px;
+        width: 35px
+    }
 }
 
 .container {
