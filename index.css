@@ -1,7 +1,7 @@
 /* JetBrains Mono Regular */
 @font-face {
     font-family: 'JetBrains Mono';
-    src: url('../fonts/JetBrainsMono-Regular.ttf') format('truetype');
+    src: url('JetBrainsMono-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
